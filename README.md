@@ -13,6 +13,7 @@ File Sorter is a simple tool designed to help you organize your files efficientl
 
 ## Installation
 1. Clone this repository to your local machine.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Install dependencies in Node with `npm install`.
-4. Run the File Sorter application at http://localhost:3000/.
+2. Install the required dependencies by running `pip install -r requirements.txt` in root.
+3. Install dependencies in Node with `npm install` in root.
+4. Run the React application at http://localhost:3000/ with `npm run start` in root.
+5. Run the Flask backend at http://localhost:2323/ by running `backend.py`.
