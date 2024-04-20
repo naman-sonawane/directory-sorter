@@ -14,4 +14,5 @@ File Sorter is a simple tool designed to help you organize your files efficientl
 ## Installation
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Run the File Sorter application at http://localhost:3000/.
+3. Install dependencies in Node with `npm install`.
+4. Run the File Sorter application at http://localhost:3000/.
