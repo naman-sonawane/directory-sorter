@@ -23,13 +23,13 @@ function App() {
     <div className="flex justify-center items-center h-screen bg-gradient-to-br from-cyan-400 to-blue-500">
       <div className="text-center p-20 bg-red-100 rounded-xl bg-gradient-to-br from-cyan-300 to-blue-400 border-white border-opacity-40 border-2">
         <h1 className="font-bold text-3xl text-gray-800">Simplistic Directory Sorter</h1>
-        <h5 className="font-medium text-l pb-10 text-gray-700">Enter a directory to sort, then check the boxes to customize.</h5>
+        <h5 className="font-medium text-l pb-10 text-gray-700">Enter a directory to sort, then hit submit.</h5>
 
         <form onSubmit={createFolder}>
           <div className="mb-4">
-            <input name="path" className="px-3 py-2 rounded-md w-3/4" placeholder="Path" />
+            <input name="path" className="px-3 py-2 rounded-md w-3/4 outline-gray-300 hover:shadow-white hover:outline-blue-500 hover:transition-all hover:duration-700 hover:ease-in-out transition-all duration-700 ease-in-out" placeholder="Path" />
           </div>
-          <button type="submit" className="bg-gradient-to-br from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 mt-6 text-white font-bold py-2 px-4 rounded">
+          <button type="submit" className="hover:transition hover:duration-700 hover:ease-in-out bg-gradient-to-br from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 mt-6 text-white font-bold py-2 px-4 rounded">
             Submit
           </button>
         </form>
