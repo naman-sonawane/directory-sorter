@@ -1,5 +1,5 @@
 # File Sorter
-Created with Flask (Python) for backend, React.js frontend, and Tailwind styling.
+Created with Flask (Python) for backend, React.js frontend, and Tailwind CSS styling.
 
 ## Description
 File Sorter is a simple tool designed to help you organize your files efficiently by sorting them based on their file types.
